@@ -10,8 +10,12 @@
         <Canvas.Background>
             <ImageBrush ImageSource="https://i.pinimg.com/736x/c6/d1/92/c6d192cc09e84830f4830ee785bb22fe.jpg"/>
         </Canvas.Background>
-        <Button x:Name="Rift" Content="Launch&#xD;&#xA;    Rift" Canvas.Left="413" Canvas.Top="184" Background="{x:Null}" Height="206" Width="232" Click="Rift_Click" FontFamily="Impact" FontSize="72" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock x:Name="__" Canvas.Left="345" TextWrapping="Wrap" Canvas.Top="210" Height="180" Width="95" FontSize="100" FontFamily="Impact"><Run Language="de-de" Text="&gt;"/></TextBlock>
-        <Button Content="Launch&#xD;&#xA;    Era" Canvas.Left="94" Canvas.Top="197" FontSize="72" FontFamily="Impact" Background="{x:Null}" Click="Button_Click"/>
+        <Button x:Name="Rift" Content="Launch&#xD;&#xA;    Rift" Canvas.Left="411" Canvas.Top="9" Background="{x:Null}" Height="206" Width="232" Click="Rift_Click" FontFamily="Impact" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock x:Name="__" Canvas.Left="316" TextWrapping="Wrap" Canvas.Top="48" Height="180" Width="95" FontSize="100" FontFamily="Impact" RenderTransformOrigin="0.589,0.145" HorizontalAlignment="Left" VerticalAlignment="Top"><Run Language="de-de" Text="&gt;"/></TextBlock>
+        <Button x:Name="LaunchEra" Content="Launch&#xD;&#xA;    Era" Canvas.Left="68" Canvas.Top="22" FontSize="72" FontFamily="Impact" Background="{x:Null}" Click="Button_Click"/>
+        <Button x:Name="InstallLawin" Content="Install&#xD;&#xA;LawinServer" Canvas.Left="353" Canvas.Top="297" Background="{x:Null}" FontSize="48" FontFamily="Impact" HorizontalAlignment="Center" VerticalAlignment="Top" Height="126" Width="250" RenderTransformOrigin="0.56,-0.295" Click="Button_Click_1"/>
+        <Button Content="Start&#xD;&#xA;LawinServer" Canvas.Top="293" Background="{x:Null}" FontFamily="Impact" FontSize="48" Height="134" Width="256" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Canvas.Left="68"/>
+        <Button x:Name="FiddlerScriptLawinPC" Content="Show Fiddler Script" Canvas.Left="77" Canvas.Top="432" FontFamily="Impact" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Top" Background="{x:Null}" Click="FiddlerScriptLawinPC_Click"/>
+        <Button x:Name="FiddlerSetup" Content="Fiddler Setup&#xD;&#xA;" Canvas.Left="158" Canvas.Top="529" FontSize="72" FontFamily="Impact" Background="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="411" Height="86" Click="FiddlerSetup_Click"/>
     </Canvas>
 </Window>

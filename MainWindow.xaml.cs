@@ -31,9 +31,24 @@ namespace AllTheLaunchers
             Launcher.LaunchRift();
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Launcher.InstallLawinServer();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchEra();
+            Launcher.LaunchLawinServer();
+        }
+
+        private void FiddlerScriptLawinPC_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.ShowFiddlerScriptLawinPC();
+        }
+
+        private void FiddlerSetup_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.FiddlerClassicSetup();
         }
     }
 }
